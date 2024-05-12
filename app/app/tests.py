@@ -8,13 +8,13 @@ from app import calc
 
 
 class CalcTests(SimpleTestCase):
-    
-    def test_add_numners(self):
-        res = calc.add(5,6)
 
-        self.assertEqual(res,11)
+    def test_add_numners(self):
+        res = calc.add(5, 6)
+
+        self.assertEqual(res, 11)
 
     def test_subtract_numbers(self):
-        res = calc.add(10,15)
+        res = calc.add(10, 15)
 
-        self.assertEqual(res,25)
+        self.assertEqual(res, 25)
